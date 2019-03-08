@@ -172,22 +172,9 @@
 <wire x1="46.99" y1="99.06" x2="3.81" y2="99.05" width="0" layer="20"/>
 <wire x1="3.81" y1="99.05" x2="0" y2="95.24" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="95.25" x2="0" y2="95.24" width="0" layer="20"/>
-<dimension x1="0" y1="-5.08" x2="95.25" y2="-5.08" x3="47.625" y3="-5.08" textsize="1.778" layer="1"/>
-<dimension x1="102.87" y1="0" x2="102.87" y2="3.81" x3="106.68" y3="1.905" textsize="1.778" layer="1"/>
-<dimension x1="95.25" y1="1.27" x2="95.25" y2="6.35" x3="115.57" y3="3.81" textsize="1.778" layer="1"/>
-<dimension x1="101.6" y1="3.81" x2="101.6" y2="95.25" x3="107.95" y3="49.53" textsize="1.778" layer="1"/>
-<dimension x1="95.25" y1="95.25" x2="3.81" y2="95.25" x3="49.53" y3="102.87" textsize="1.778" layer="1"/>
-<dimension x1="0" y1="-11.43" x2="99.06" y2="-11.43" x3="49.53" y3="-8.89" textsize="1.778" layer="1"/>
-<dimension x1="95.25" y1="100.33" x2="77.47" y2="100.33" x3="86.36" y3="107.95" textsize="1.778" layer="1"/>
 <wire x1="0" y1="95.24" x2="0" y2="59.69" width="0" layer="20"/>
 <wire x1="0" y1="59.69" x2="12.7" y2="53.34" width="0" layer="20"/>
 <wire x1="12.7" y1="53.34" x2="12.7" y2="3.81" width="0" layer="20"/>
-<dimension x1="111.76" y1="99.06" x2="111.76" y2="92.71" x3="120.65" y3="95.885" textsize="1.778" layer="1"/>
-<dimension x1="99.06" y1="-15.24" x2="90.17" y2="-15.24" x3="94.615" y3="-12.7" textsize="1.778" layer="1"/>
-<dimension x1="121.92" y1="0" x2="121.92" y2="26.67" x3="123.19" y3="13.335" textsize="1.778" layer="1"/>
-<dimension x1="123.19" y1="26.67" x2="123.19" y2="67.31" x3="123.19" y3="46.99" textsize="1.778" layer="1"/>
-<dimension x1="0" y1="-15.24" x2="11.43" y2="-15.24" x3="5.715" y3="-13.97" textsize="1.778" layer="1"/>
-<dimension x1="-3.81" y1="99.06" x2="-3.81" y2="66.04" x3="-12.7" y3="82.55" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -2490,9 +2477,10 @@ design rules under a new name.</description>
 <wire x1="74.93" y1="46.99" x2="74.93" y2="69.85" width="0.508" layer="1"/>
 <wire x1="71.12" y1="43.18" x2="74.93" y2="46.99" width="0.508" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="N$6">
 <via x="95.25" y="3.81" extent="1-16" drill="4.064"/>
-<wire x1="95.25" y1="3.81" x2="95.25" y2="95.25" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$2">
 <via x="95.25" y="95.25" extent="1-16" drill="4.064"/>
 </signal>
 <signal name="N$1">
